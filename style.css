@@ -1,0 +1,38 @@
+fieldset {
+    width: fit-content;
+}
+
+#judulForm {
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+
+.subjudulForm {
+    margin-left: 100px;
+}
+
+.btnCancel {
+    background-color: #faf14c;
+    border-radius: 10px;
+    color: black;
+    width: 100px;
+}
+
+.btnSubmit {
+    background-color: #008000;
+    border-radius: 10px;
+    color: #18d8a1;
+    height: 40px;
+    border-color: transparent;
+}
+
+.card-content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: fit-content;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 400px !important;
+}

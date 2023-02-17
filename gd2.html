@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulir Registrasi</title>
+</head>
+
+<body>
+    <h1 id="judulForm">Formulir Pendaftaran Vaksin</h1>
+    <h3 class="subjudulForm">&copy; PT.Axcella Jaya - Purworejo</h3>
+    <a href="bootstrap.html">Show me more - Bootstrap</a>
+    <form action="" method="">
+        <fieldset>
+            <legend>Data Mahasiswa</legend>
+            <table cellspacing="4" cellpadding="4">
+                <tr></tr>
+                <tr>
+                    <td><label for="namaMahasiswa">Nama</label></td>
+                    <td><input type="text" id="namaMahasiswa" placeholder="Nama Mahasiswa"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="npmMahasiswa"> NPM </label></td>
+                    <td><input type="text" id="npmMahasiswa" placeholder="NPM 
+Mahasiswa"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><label> Jenis Kelamin </label></td>
+                    <td colspan="2">
+                        <input type="radio" name="genderMahasiswa" id="pria">
+                        Pria
+                        <input type="radio" name="genderMahasiswa" id="wanita"> Wanita
+                    </td>
+                </tr>
+                <tr></tr>
+
+                <tr>
+                    <td><label for="emailMahasiswa"> Email </label></td>
+                    <td><input type="text" id="emailMahasiswa" placeholder="example@students.uajy.ac.id"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="passwordMahasiswa"> Password </label></td>
+                    <td><input type="password" id="passwordMahasiswa" placeholder="Password"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><label> Fakultas </label></td>
+                    <td>
+                        <select id="fakultasMahasiswa">
+                            <option value="fbe"> FBE </option>
+                            <option value="fti"> FTI </option>
+                            <option value="ft"> FT </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><label> Prodi </label></td>
+                    <td>
+                        <select id="prodiMahasiswa">
+                            <option value="inf">Informatika</option>
+                            <option value="ti">Teknik Industri</option>
+                            <option value="si">Sistem Informasi</option>
+                            <option value="arsi">Arsitek</option>
+                            <option value="akun">Akuntansi</option>
+                            <option value="management">Management</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="alamatMahasiswa"> Alamat </label></td>
+                    <td><textarea id="alamatMahasiswa" cols="30" rows="5" placeholder="Alamat Mahasiswa"></textarea>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="3">
+
+                        <input class="btnCancel" type="reset" value="Cancel">
+                        <input class="btnSubmit" type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

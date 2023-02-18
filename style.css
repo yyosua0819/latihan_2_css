@@ -2,28 +2,51 @@ fieldset {
     width: fit-content;
 }
 
-#judulForm {
+h1 {
+    text-align: center;
+}
+
+/* #judulForm {
     text-decoration: underline;
     letter-spacing: 5px;
-}
+} */
 
 .subjudulForm {
     margin-left: 100px;
 }
 
-.btnCancel {
+/* .btnCancel {
     background-color: #faf14c;
     border-radius: 10px;
     color: black;
     width: 100px;
+} */
+
+.btnCancel {
+    background-color: red;
+    border-radius: 10px;
+    color: black;
+    height: 40px;
+    border-color: transparent;
 }
 
 .btnSubmit {
-    background-color: #008000;
+    background-color: blue;
     border-radius: 10px;
-    color: #18d8a1;
+    color: black;
     height: 40px;
     border-color: transparent;
+}
+
+.btnSubmit1 {
+    background-color: ghostwhite;
+    border-radius: 10px;
+    color: black;
+    height: 40px;
+    width: 70px;
+    border-color: darkcyan;
+    border: solid 3px darkcyan;
+    margin: auto;
 }
 
 .card-content {
@@ -35,4 +58,49 @@ fieldset {
     margin-top: 50px;
     padding: 20px;
     width: 400px !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkcyan;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: darkcyan;
+}
+
+.active {
+    background-color: darkcyan;
+}
+
+fieldset {
+    width: 400px;
+    margin: auto;
+}
+
+.box1 {
+    width: 350px;
+    height: 550px;
+    background: black;
+    border: solid 3px darkcyan;
+    margin: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 50px;
 }

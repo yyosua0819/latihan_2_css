@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulir Registrasi</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="ugd1.html">UGD 2 - 0367</a></li>
+        <li style="float:right"><a class="active" href="ugd2.html">Duplicte Form</a></li>
+        <li style="float:right"><a class="active" href="ugd1.html">Reservasi</a></li>
+    </ul>
+
+    <br><br>
+
+    <div class="box1">
+
+        <br>
+        <h1 id="judulForm" style="color: aliceblue; font-size: x-large;">Reservasi Sewa Ayang</h1>
+        <h1 id="judulForm2" style="color: aliceblue; font-size: larger;">© Tinder 2022</h1>
+
+        <table cellspacing="4" cellpadding="4">
+
+            <tr></tr>
+            <tr>
+                <td><label for="namareservator" style="color: aliceblue;"><b>Nama Reservator</b></label></td>
+
+            <tr>
+                <td><input type="text" id="namareservator" placeholder="Masukkan Nama"></td>
+            </tr>
+            </tr>
+
+            <tr></tr>
+            <tr>
+                <td><label for="tanggalsewa" style="color: aliceblue;"><b>Tanggal Sewa</b></label></td>
+            <tr>
+                <td><input type="date" id="tanggalsewa" placeholder="Masukkan Tanggal Sewa"></td>
+            </tr>
+            </tr>
+
+            <tr></tr>
+            <tr>
+                <td><label style="color: aliceblue;"><b>Pilih tempat dinner</b></label></td>
+            <tr></tr>
+            <td>
+                <select id="dinner">
+                    <optgroup label="Paris">
+                        <option value="Breizh Cafe"> Breizh Cafe </option>
+                        <option value="Bistrot Victories"> Bistrot Victories </option>
+                    </optgroup>
+                    <optgroup label="Korea">
+                        <option value="Sky Rose Garden"> Sky Rose Garden </option>
+                        <option value="Cafe Dongjak Bridge"> Cafe Dongjak Bridge </option>
+                    </optgroup>
+                </select>
+            </td>
+            </tr>
+
+            <tr></tr>
+            <tr>
+                <td><b><label style="color: aliceblue;"> Pilih Ayang </label></b>
+                    <b>
+                        <br>
+                        <input type="radio" name="ayang" id="name1"> <label
+                            style="color: aliceblue;">Patricia</label><br>
+                        <input type="radio" name="ayang" id="name2"> <label style="color: aliceblue;">Angga</label><br>
+                        <input type="radio" name="ayang" id="name3"> <label style="color: aliceblue;">Marsha</label><br>
+                    </b>
+                </td>
+            </tr>
+
+            <tr></tr>
+            <tr>
+                <td><label style="color: aliceblue;"><b>Paket Sewa Ayang</b></label></td>
+            <tr></tr>
+            <td>
+                <select id="dinner">
+                    <option value="Premium"> Premium </option>
+                    <option value="Standar"> Standar </option>
+                </select>
+            </td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <div>
+            <input class="btnSubmit1" type="submit" value="Submit" style="margin-left: 135px;">
+        </div>
+        
+    </div>
+
+</body>
+
+</html>

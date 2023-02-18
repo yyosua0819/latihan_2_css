@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulir Registrasi</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="ugd1.html">UGD 2 - 0367</a></li>
+        <li style="float:right"><a class="active" href="ugd2.html">Duplicte Form</a></li>
+        <li style="float:right"><a class="active" href="ugd1.html">Reservasi</a></li>
+    </ul>
+
+    <h1 id="judulForm">Hotel Reservation</h1>
+
+    <form action="" method="">
+
+        <fieldset>
+
+            <fieldset>
+
+                <legend>Personal Data</legend>
+
+                <table cellspacing="4" cellpadding="4">
+
+                    <tr></tr>
+                    <tr>
+                        <td><label for="nama">Name</label></td>
+                        <td><input type="text" id="nama" placeholder="Name"></td>
+                    </tr>
+
+                    <tr></tr>
+                    <tr>
+                        <td><label> Gender </label></td>
+                        <td colspan="2">
+                            <input type="radio" name="gender" id="man">
+                            Man
+                            <input type="radio" name="gender" id="woman"> Woman
+                        </td>
+                    </tr>
+
+                    <tr></tr>
+                    <tr>
+                        <td><label for="email"> Email </label></td>
+                        <td><input type="text" id="email" placeholder="Email"></td>
+                    </tr>
+
+                    <tr></tr>
+                    <tr>
+                        <td><label for="phonenumber"> Phone Number </label></td>
+                        <td><input type="text" id="phonenumber" placeholder="Phone Number"></td>
+                    </tr>
+
+                    <tr></tr>
+                    <tr>
+                        <td><label for="address"> Address </label></td>
+                        <td><input type="text" id="address" placeholder="Address"></td>
+                    </tr>
+
+                </table>
+
+            </fieldset>
+
+            <p>Room Reservator</p>
+
+            <table cellspacing="4" cellpadding="4">
+
+                <tr></tr>
+                <tr>
+                    <td><label for="bookingdate">Booking Date</label></td>
+                    <td><input type="date" id="bookingdate" placeholder="Booking Date"></td>
+                </tr>
+
+                <tr></tr>
+                <tr>
+                    <td><label> Room Type </label></td>
+                    <td>
+                        <select id="roomtype">
+                            <option value="queen"> Queen </option>
+                            <option value="presidential"> Presidential </option>
+                            <option value="average"> Average </option>
+                        </select>
+                    </td>
+                </tr>
+
+            </table>
+
+            <br>
+
+            <tr></tr>
+            <tr>
+                <td colspan="3">
+                    <input class="btnCancel" type="reset" value="Cancel">
+                    <input class="btnSubmit" type="submit" value="Submit">
+                </td>
+            </tr>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
